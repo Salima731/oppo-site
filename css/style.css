@@ -1,0 +1,146 @@
+.header-search{
+    position: relative;
+}
+.header-search input{
+    outline: none;
+    border: 1px solid rgb(194, 193, 193);
+    padding: 5px 2px 5px 30px;
+}
+.header-search svg{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#homepageCarousel .carousel-caption{
+    left: 10px;
+    bottom: auto;
+    top: 0px;
+    text-align: left;
+}
+.content-image-caption{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    justify-content: space-between;
+}
+.buttn{
+    border-radius: 5px;
+}
+.image-bottom caption{
+    position: absolute;
+    bottom: 50px;
+    left:20px;
+}
+.color-rg{
+    color: grey;
+}
+.new-products{
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight:500px;
+    padding-left: 30px;
+}
+.one-image-caption{
+    font-size: 10px;
+}
+.bottom-caption{
+    left: 50px;
+    bottom: 20px;
+
+}
+.small-box-caption{
+    border-radius: 4px;
+    background-color: rgb(203, 248, 232);
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+    font-size: 17px;
+    padding: 10px 40px 10px 10px;
+    font-weight: 500px;
+}
+.small-box-list{
+    list-style: none;
+    text-decoration: underline;
+    padding-left: 10px;
+}
+.small-box-list  li a{
+    color: black;
+    text-decoration: none;
+}
+
+.small-box-list li a:hover::after{
+    transition: all 1s ease-in-out;
+    content: '';
+    position:absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 1px;
+    width: 0%;
+    background-color: black;
+}
+.small-box-list li a::after{
+    content: '';
+    position:absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 1px;
+    background-color: black;
+    width: 100%;
+}
+.first-column-heading{
+    font-size: 40px;
+    font-weight: 500px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.first-row{
+    margin-top: 10px;
+
+}
+.first-column{
+    background-color: rgb(243, 239, 239);
+    border-right: solid 5px white;
+    border-top: solid 5px white ;
+}
+.column-bottom-caption{
+    font-size: 16px;
+    font-weight: 20%;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-bottom: 5px;
+
+}
+.width-three-cols{
+    width: 100%;
+}
+.three-col-caption{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+.main-three-row {
+    background-color: rgb(241, 236, 236);
+    border-top: solid 5px white;
+}
+.footer-para{
+    font-size: 13px;
+    padding-top: 40px;
+    padding-left: 40px;
+    color: rgb(158, 156, 156);
+}
+.col-master nav ul li{
+    list-style: none;
+
+}
+.col-master nav ul li a{
+    text-decoration: none;
+    color: rgb(172, 164, 164);
+}
+.col-master{
+    padding-top: 50px;
+}
+.col-master nav ul li a:hover{
+    color: white;
+}
