@@ -144,3 +144,8 @@
 .col-master nav ul li a:hover{
     color: white;
 }
+.caption-container{
+    left: 20px;
+    top: 30px;
+    height: 100%;
+}
