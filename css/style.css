@@ -171,3 +171,52 @@
 .top-caption{
     padding-top: 50px;
 }
+.phone-bottom-caption{
+    left: 0px;
+    bottom: 0px;
+}
+.new-pro-under-cols{
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    width: 100%;
+}
+@media screen and (min-width:1400px){
+    .new-pro-under-cols{
+        flex-basis: 50%;
+        flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+    }
+    
+}
+.new-pro-under-cols img{
+    max-width: 320px;
+}
+.chat-icon{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+   
+}
+.chat-icon svg{
+    width: 20px;
+}
+.chat-icon > div {
+    margin-top: 10px;
+    background-color: rgb(219, 214, 214);
+    padding: 10px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.scale-animation:hover{
+    transition: all 0.35s ease-in-out;
+    transform: scale(1.1);
+
+}
+.scale-animation{
+    transition: all 0.35s ease-in-out;
+}
